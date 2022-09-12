@@ -1,0 +1,4 @@
+r=int(input("value of r"))
+h=int(input("value of h"))
+v=3.14*r*r*h
+print(v)
