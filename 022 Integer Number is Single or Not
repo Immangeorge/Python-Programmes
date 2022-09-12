@@ -1,0 +1,5 @@
+a=int(input("value of a"))
+if a>=0 and a<10:
+                print("Single Digit")
+else:
+     print("Not Single")
