@@ -1,0 +1,9 @@
+a=int(input("value of a"))
+if a>=0 and a<10:
+                 print("Single Digit Number")
+elif a>=10 and a<100:
+                   print("Two Digit Number")
+elif a>=100 and a<1000:
+                      print("Three Digit Number")
+else:
+     print("Four Digit Number")
