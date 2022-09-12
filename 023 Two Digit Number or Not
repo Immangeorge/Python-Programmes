@@ -1,0 +1,5 @@
+a=int(input("value of a"))
+if a>=10 and a<100:
+                 print("Two Digit Number")
+else:
+      print("Not Two Digit Number")
