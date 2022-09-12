@@ -1,0 +1,4 @@
+l=int(input("value of l"))
+b=int(input("value of b"))
+a=l*b
+print(a)
