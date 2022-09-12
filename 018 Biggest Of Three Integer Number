@@ -1,0 +1,12 @@
+x=int(input("value of x"))
+y=int(input("value of y"))
+z=int(input("value of z"))
+if x>y:
+       if x>z:
+            print("x is bigger than z")
+       else:
+            print("z is bigger than x")
+elif y>z:
+         print("y is bigger than z")
+else:
+     print("z is bigger than y")
