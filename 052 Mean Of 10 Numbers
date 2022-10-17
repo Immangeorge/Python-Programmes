@@ -1,0 +1,8 @@
+s=0
+c=1
+while c<10:
+           a=int(input("value of a"))
+           s=s+a
+           c=c+1
+i=s/a
+print(i)
