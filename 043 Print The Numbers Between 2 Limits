@@ -1,0 +1,6 @@
+x=int(input("value of x"))
+y=int(input("value of y"))
+c=x
+while c<y:
+    print(c)
+    c=c+1
