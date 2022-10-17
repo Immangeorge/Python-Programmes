@@ -1,0 +1,6 @@
+a=int(input("value of a"))
+b=a%4
+if b:
+  print("b is Leap Year")
+else:
+    print("b is Not Leap Year")
