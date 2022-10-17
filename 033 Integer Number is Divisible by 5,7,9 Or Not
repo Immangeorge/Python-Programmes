@@ -1,0 +1,8 @@
+a=int(input("value of a"))
+b=a%5
+c=a%7
+d=a%9
+if b or c or d:
+              print("Not Divisible By 5,7,9")
+else:
+     print("Divisible By 5,7,9")
