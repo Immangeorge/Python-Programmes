@@ -1,0 +1,6 @@
+a=int(input("value of a"))
+b=a/2
+if b:
+    print("b is odd")
+else:
+     print("b is Even")
