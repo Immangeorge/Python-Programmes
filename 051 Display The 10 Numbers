@@ -1,0 +1,5 @@
+c=1
+while c<10:
+           a=int(input("value of a"))
+           print(a)
+           c=c+1
