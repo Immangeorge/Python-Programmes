@@ -1,0 +1,10 @@
+c=int(input("value of c"))
+while c!=1000:
+             print(c)
+             if c>0:
+                   print("c is Positive")
+             elif c<0:
+                     print("c is Negative")
+             else:
+                  print("c is Zero")
+             c=int(input("value of c"))
