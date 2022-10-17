@@ -5,4 +5,4 @@ while c<100:
           print("Even")
       else:
          print("Odd")
-         c=c+1
+      c=c+1
