@@ -1,0 +1,6 @@
+a=int(input("value of a"))
+b=a%9
+if b:
+     print("b is not divisible by Nine")
+else:
+     print("b is Divisible By Nine")
