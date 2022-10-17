@@ -1,0 +1,15 @@
+d=e=f=g=0
+c=int(input("value of c"))
+while c!=1000:
+              if c>0:
+                     d=d+1
+                     e=e+c
+              else:
+                    f=f+1
+                    g=g+c
+              c=int(input("value of c"))
+h=d%e
+i=f%g
+print(d,"",e,"",f,"",g)
+print(h)
+print(i)
