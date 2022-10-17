@@ -1,0 +1,10 @@
+x=int(input("value of x"))
+y=int(input("value of y"))
+c=x
+while c<y:
+          print(c)
+          if c%4==0:
+                    print("C is Leap Year")
+          else:
+               print("C is Not Leap Year")
+          c=c+1
