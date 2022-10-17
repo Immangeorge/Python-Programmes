@@ -1,0 +1,8 @@
+c=1000
+while c<2000:
+             print(c)
+             if c%4==0:
+                      print("c is Leap Year")
+             else:
+                  print("c is Not Leap Year")
+             c=c+1
