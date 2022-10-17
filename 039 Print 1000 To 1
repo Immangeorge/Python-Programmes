@@ -1,0 +1,4 @@
+c=1000
+while c>1:
+        print(c)
+        c=c-1
