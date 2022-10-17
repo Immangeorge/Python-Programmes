@@ -1,0 +1,5 @@
+a=int(input("value of a"))
+if a:
+    print("a is Zero")
+else:
+    print("a is Zero")
