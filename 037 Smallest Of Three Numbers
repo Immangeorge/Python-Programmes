@@ -1,0 +1,6 @@
+a=int(input("value of a"))
+b=int(input("value of b"))
+e=int(input("value of e"))
+c=a if a<b else b
+d=c if c<e else e
+print(d)
