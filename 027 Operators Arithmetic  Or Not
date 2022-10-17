@@ -1,0 +1,5 @@
+x=input("value of x")
+if x=='+' or x=='-' or x=='*' or x=='/':
+       print("Arithmetic Operator")
+else:
+     print("Not Arithmetic Operator")
