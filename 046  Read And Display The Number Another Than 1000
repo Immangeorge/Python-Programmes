@@ -1,0 +1,4 @@
+c=int(input("value of c"))
+while c!=1000:
+            print(c)
+            c=int(input("value of c"))
