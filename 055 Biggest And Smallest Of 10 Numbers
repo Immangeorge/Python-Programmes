@@ -1,0 +1,12 @@
+b=0
+l=9999
+c=1
+while c<10:
+           a=int(input("value of a"))
+           if a>b:
+                  b=a
+           if a<l:
+                  l=a
+           c=c+1
+print(b)
+print(l)
