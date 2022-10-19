@@ -1,0 +1,10 @@
+e=1
+c=1
+while c<=6:
+          d=1
+          while d<=e:
+                     print('*',end='')
+                     d=d+1
+          print()
+          c=c+1
+          e=e+2
