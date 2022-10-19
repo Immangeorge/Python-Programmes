@@ -1,0 +1,8 @@
+l=1000
+c=1
+while c<10:
+           a=int(input("value of a"))
+           if a<l:
+                  l=a
+           c=c+1
+print(l)
