@@ -5,8 +5,8 @@ while c!=1000:
                      d=d+1
                      e=e+c
               else:
-                    f=f+1
-                    g=g+c
+                    f=f+c
+                    g=g+1
               c=int(input("value of c"))
 h=d%e
 i=f%g
