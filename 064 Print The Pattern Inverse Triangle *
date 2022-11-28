@@ -1,0 +1,16 @@
+g=9
+e=1
+c=1
+while c<=6:
+           d=1
+           while d<=e:
+                     print(' ',end=' ')
+                     d=d+1
+           e=e+1
+           f=1
+           while f<=g:
+                     print('*',end=' ')
+                     f=f+1
+           print( )
+           g=g-2
+           c=c+1
