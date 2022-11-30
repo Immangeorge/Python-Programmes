@@ -1,0 +1,44 @@
+c=1
+while c<5:
+          print(' ',end='')
+          c=c+1
+print('*')
+e=1
+g=4
+d=1
+while d<5:
+          h=1
+          while h<g:
+                    print(' ',end='')
+                    h=h+1
+          g=g-1
+          print('*',end=' ')
+          i=1
+          while i<e:
+                    print('',end=' ')
+                    i=i+1
+          print('*')
+          e=e+2
+          d=d+1
+j=5
+k=1
+l=1
+while l<4:
+          m=1
+          while m<=k:
+                     print(' ',end='')
+                     m=m+1
+          k=k+1
+          print('*',end=' ')
+          n=1
+          while n<j:
+                    print('',end=' ')
+                    n=n+1
+          print('*')
+          j=j-2
+          l=l+1
+o=1
+while o<5:
+         print(' ',end='')
+         o=o+1
+print('*')
