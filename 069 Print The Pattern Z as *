@@ -1,0 +1,19 @@
+c=1
+while c<=5:
+          print('*',end='')
+          c=c+1
+j=4
+d=1
+while d<=5:
+           print( )
+           e=1
+           while e<=j:
+                      print(' ',end='')
+                      e=e+1
+           j=j-1
+           print('*',end='')
+         d=d+1
+f=1
+while f<=5:
+           print('*',end='')
+           f=f+1
