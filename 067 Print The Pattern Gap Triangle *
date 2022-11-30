@@ -1,0 +1,26 @@
+c=1
+while c<6:
+            print(' ',end='')
+            c=c+1
+print('*')
+e=1
+g=4
+d=1
+while d<5:
+             h=1
+             while h<g:
+                       print(' ',end='')
+                       h=h+1
+             g=g-1
+             print('*',end=' ')
+             i=1
+             while i<=e:
+                        print('',end=' ')
+                        i=i+1
+             print('*')
+             e=e+2
+             d=d+1
+f=1
+while f<=6:
+            print('*',end=' ')
+            f=f+1
