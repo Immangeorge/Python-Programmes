@@ -1,0 +1,17 @@
+c=1
+while c<=6:
+           print('*',end='')
+           c=c+1
+c=1
+while c<=6:
+           print('*')
+           d=1
+           while d<=4:
+                      print(' ',end=' ')
+                      d=d+1
+           print('*')
+           c=c+1
+c=1
+while c<=6:
+           print('*',end='')
+           c=c+1
