@@ -1,0 +1,6 @@
+s=input("value of s")
+r=len(s)
+c=0
+while c<r:
+       print(s[c])
+       c=c+1
