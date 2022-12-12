@@ -1,0 +1,4 @@
+x=int(input("value of x"))
+y=int(input("value of y"))
+for c in range(x,y):
+              print(c)
