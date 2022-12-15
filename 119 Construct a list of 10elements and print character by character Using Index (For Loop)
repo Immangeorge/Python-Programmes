@@ -1,0 +1,8 @@
+a=[]
+z=10
+for x in range(z):
+           n=int(input("value of n"))
+           a.append(n)
+n=len(a)
+for i in range(n):
+             print(a[i])
