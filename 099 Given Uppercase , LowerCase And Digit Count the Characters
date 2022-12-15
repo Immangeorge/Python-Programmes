@@ -1,0 +1,18 @@
+s=input("value of s")
+r=len(s)
+a=b=d=e=0
+c=0
+while c<r:
+         if (s[c])>='A' and (s[c])<='Z':
+                        a=a+1
+         elif (s[c])>='a' and (s[c])<='z':
+                            b=b+1
+         elif (s[c])>='0' and (s[c])<='9':
+                             d=d+1
+         else:
+             e=e+1
+         print(s[c])
+         c=c+1
+print(a)
+print(b)
+print(d)
