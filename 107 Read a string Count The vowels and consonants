@@ -1,0 +1,11 @@
+s=input("value of s")
+r=len(s)
+a=b=0
+for c in range(r):
+                print(s[c])
+                if (s[c])=='A' or (s[c])=='E' or (s[c])=='I' or (s[c])=='O' or (s[c])=='U' or (s[c])=='a' or (s[c])=='e' or (s[c])=='i' or (s[c])=='o' or (s[c])=='u':
+                                       a=a+1
+                else:
+                     b=b+1
+print(a)
+print(b)
