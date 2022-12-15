@@ -1,0 +1,18 @@
+a=[]
+b=0
+c=9999
+j=10
+for x in range(j):
+          n=int(input("value of n"))
+          a.append(n)
+n=len(a)
+for i in range(n):
+            if a[i]>b:
+                  b=a[i]
+                  d=i
+            if a[i]<c:
+                   c=a[i]
+                   e=i
+a[d]=c
+a[e]=b
+print(a)
