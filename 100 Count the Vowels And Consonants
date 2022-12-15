@@ -1,0 +1,12 @@
+s=input("value of s")
+r=len(s)
+a=b=0
+c=0
+while c<r:
+          if (s[c])=='A' or (s[c])=='E' or (s[c])=='I' or (s[c])=='O' or (s[c]=='U') or  (s[c])=='a' or (s[c])=='e' or (s[c])=='i' or (s[c])=='o' or (s[c]=='U'):
+                           a=a+1
+          else:
+               b=b+1
+          c=c+1
+print(a)
+print(b)
