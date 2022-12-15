@@ -1,0 +1,7 @@
+s1=input("value of s1")
+n=len(s1)
+s2=''
+for c in range(n):
+           if s1[c]!=',':
+                    s2=s2+s1[c]
+print(s2)
