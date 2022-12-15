@@ -1,0 +1,8 @@
+s1=input("value of s1")
+n=len(s1)
+m=int(input("value of m"))
+s2=''
+x=n-m
+for l in range(x,n):
+           s2=s2+s1[l]
+print(s2)
