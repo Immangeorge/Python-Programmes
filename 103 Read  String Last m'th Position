@@ -1,0 +1,10 @@
+s1=input("value of s1")
+n=len(s1)
+m=int(input("value of m"))
+l=n-m
+s2=''
+while l<n:
+          s2=s2+s1[l]
+          l=l+1
+          m=m+1
+print(s2)
