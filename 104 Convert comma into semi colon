@@ -1,0 +1,11 @@
+s1=input("value of s1")
+n=len(s1)
+s2=''
+c=0
+while c<n:
+         if s1[c]==',':
+                     s2=s2+';'
+         else:
+               s2=s2+s1[c]
+         c=c+1
+print(s2)
