@@ -2,5 +2,5 @@ a=[]
 z=10
 for c in range(z):
            n=int(input("value of n"))
-           a.append()
+           a.append(n)
 print(a)
