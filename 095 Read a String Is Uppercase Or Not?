@@ -1,0 +1,5 @@
+s=input("value of s")
+if s>='A' and s<='Z':
+                 print("UpperCase")
+else:
+     print("Not UpperCase")
