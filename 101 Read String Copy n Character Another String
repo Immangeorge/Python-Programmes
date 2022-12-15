@@ -1,0 +1,8 @@
+s1=input("value of s1")
+n=int(input("value of n"))
+s2=''
+c=0
+while c<n:
+          s2=s2+s1[c]
+          c=c+1
+print(s2)
