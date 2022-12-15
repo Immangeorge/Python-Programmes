@@ -1,0 +1,11 @@
+a=[]
+z=10
+for x in range(z):
+              n=int(input("value of n"))
+              a.append(n)
+n=len(a)
+b=0
+for i in range(n):
+               if a[i]>b:
+                       b=a[i]
+print(b)
