@@ -1,0 +1,9 @@
+s=input("value of s")
+if s>='A' and s<='Z':
+                    print("UpperCase")
+elif s>='a' and s<='z':
+                     print("Lowercase")
+elif s>='0' and s<='9':
+                      print("Digit")
+else:
+     print("Not")
