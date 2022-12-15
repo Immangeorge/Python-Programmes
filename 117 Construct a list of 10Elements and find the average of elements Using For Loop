@@ -1,0 +1,10 @@
+a=[]
+s=0
+z=10
+for x in range(z):
+                 n=int(input("value of n"))
+                 a.append(n)
+for x in a:
+          s=s+x
+i=s%n
+print(i)
