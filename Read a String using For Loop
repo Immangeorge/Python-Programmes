@@ -1,0 +1,4 @@
+s=input("value of s")
+r=len(s)
+for c in range (r):
+    print(s[c])
