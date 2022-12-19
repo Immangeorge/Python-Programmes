@@ -1,0 +1,25 @@
+b=[]
+for i in range(1,6):
+                  a=[]
+                  n=input("Name")
+                  ag=int(input("Age"))
+                  sal=int(input("Salary"))
+                  ph=int(input("Phone Number"))
+                  a.append(n)
+                  a.append(ag)
+                  a.append(sal)
+                  a.append(ph)
+                  b.append(a)
+c=[]
+d=[]
+e=[]
+for i in range(5):
+             if b[i][1]<30:
+                         c.append(b[i])
+             if b[i][1]>=30 and b[i][1]<50:
+                           d.append(b[i])
+             if b[i][1]>=50:
+                            e.append(b[i])
+print(c)
+print(d)
+print(e)
