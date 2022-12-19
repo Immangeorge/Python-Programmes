@@ -1,0 +1,8 @@
+a=[]
+n=input("Name")
+b=input("Age")
+s=input("Reg.No")
+a.append(n)
+a.append(b)
+a.append(s)
+print(a)
