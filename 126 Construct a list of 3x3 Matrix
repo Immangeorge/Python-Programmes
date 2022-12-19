@@ -1,0 +1,8 @@
+a=[]
+b=[]
+for c in range(1,3):
+   for d in range(1,3):
+          n=int(input("value of n"))
+          a.append(n)
+b.append(a)
+print(b)
