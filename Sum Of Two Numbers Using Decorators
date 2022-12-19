@@ -1,0 +1,9 @@
+def Add(a,b):
+        c=a+b
+        return c
+def Find(f1,a,b):
+         print(f1(a,b))
+#Main
+x=int(input("Value of x"))
+y=int(input("value of y"))
+h=Find(Add,x,y)
