@@ -1,0 +1,27 @@
+def Sum(a,b):
+      x=a+b
+      return x
+def Difference(a,b):
+        x=a-b
+        return x
+def Product(a,b):
+         x=a*b
+         return x
+def Division(a,b):
+          x=a/b
+          return x
+def Mod(a,b):
+        x=a%b
+        return x
+def Quotient(a,b):
+          x=a|b
+          return x
+def Find(fn,a,b):
+         print(fn(a,b))
+#Main
+Find(Difference,20,5)
+Find(Sum,76,87)
+Find(Quotient,15,56)
+Find(Mod,87,89)
+Find(Division,45,56)
+Find(Product,99,33)
