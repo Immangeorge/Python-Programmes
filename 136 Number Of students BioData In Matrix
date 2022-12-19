@@ -1,0 +1,12 @@
+b=[]
+n=10
+for i in range(n):
+        a=[]
+        n=input("Name")
+        ag=input("Age")
+        address=input("Address")
+        a.append(n)
+        a.append(ag)
+        a.append(address)
+        b.append(a)
+print(b)
