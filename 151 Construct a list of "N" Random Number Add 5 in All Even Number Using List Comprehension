@@ -1,0 +1,4 @@
+import random
+a=[random.randint(-100,100) for i in range(100)]
+b=[i+5 if i%2==0 else i for i in a]
+print(a)
